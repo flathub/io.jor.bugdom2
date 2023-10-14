@@ -29,7 +29,7 @@ modules:
       - type: git
         url: https://github.com/jorio/Bugdom2.git
         #tag: v4.0.0
-        commit: 54f0a660b8b7de4bb2965c5aeba486a309186199
+        commit: 69115862fe977859997b417d9044b9eb6388a0f1
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
