@@ -28,8 +28,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/jorio/Bugdom2.git
-        #tag: v4.0.0  #--- using more recent commit than this tag for wayland fix
-        commit: 3e1390d44423ef1ccc4ede493e83837ae41593c3
+        #tag: v4.0.0
+        commit: 69115862fe977859997b417d9044b9eb6388a0f1
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
