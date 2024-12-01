@@ -1,6 +1,6 @@
 app-id: io.jor.bugdom2
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: Bugdom2
 
@@ -29,9 +29,10 @@ modules:
       - type: git
         url: https://github.com/jorio/Bugdom2.git
         #tag: v4.0.0
-        commit: 69115862fe977859997b417d9044b9eb6388a0f1
+        commit: 4050d6f97bf5d8b7ac9e91b1b7d4eacf3a4af87c
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
+        tag: v4.0.0
       - type: file
         path: bugdom2_launcher.sh
